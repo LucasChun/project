@@ -11,7 +11,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','dev_secret_key')
 DEBUG = os.environ.get('DJANGO_DEBUG', '') == 'True'
 
 # ALLOWED_HOSTS = os.environ.get('DJANGO_ALLOWED_HOSTS', 'localhost, 127.0.0.1').split(', ')
-ALLOWED_HOSTS = ['<pythonanywhere-id>.pythonanywhere.com']
+ALLOWED_HOSTS = ['hyeonu.pythonanywhere.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
